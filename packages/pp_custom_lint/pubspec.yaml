@@ -1,0 +1,12 @@
+name: pp_custom_lint
+version: 1.1.0+0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  analyzer: ^6.2.0
+  # analyzer requires meta ^1.11.0 (but we have 1.10.0 from the sdk)
+  analyzer_plugin: ^0.11.3
+  custom_lint_builder: ^0.6.2

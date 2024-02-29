@@ -451,6 +451,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.1"
+  pp_custom_lint:
+    dependency: "direct dev"
+    description:
+      path: "packages/pp_custom_lint"
+      relative: true
+    source: path
+    version: "1.1.0+0"
   pub_semver:
     dependency: transitive
     description:
